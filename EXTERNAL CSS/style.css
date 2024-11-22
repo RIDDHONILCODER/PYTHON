@@ -1,0 +1,58 @@
+nav {
+
+    width: 100%;
+    height: 15vh;
+
+    background: rgb(99, 160, 190);
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+nav .mainmenu{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: myfirst 4s 100;
+}
+nav .logo{
+    background-color: rgb(148, 0, 247);
+    width: 10%;
+}
+
+@keyframes myfirst {
+
+    0% {
+        background: red;
+        left: 0px;
+        top: 100px;
+    }
+
+    25% {
+        background: yellow;
+        left: 200px;
+        top: 100px;
+    }
+
+    50% {
+        background: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+
+}
