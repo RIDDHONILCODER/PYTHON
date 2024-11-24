@@ -16,7 +16,7 @@ nav .mainmenu{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    animation: myfirst 4s 100;
+    animation: myfirst 10s 100;
 }
 nav .logo{
     background-color: rgb(148, 0, 247);
