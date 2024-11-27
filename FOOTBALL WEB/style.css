@@ -1,0 +1,45 @@
+h1 {
+
+    background-color: rgb(118, 118, 181);
+
+    color: whitesmoke;
+
+    text-align: center;
+}
+.nav-bar {
+
+    overflow: hidden;
+
+    background-color: lightskyblue;
+
+}
+
+.nav-bar a {
+
+    padding: 30px 20px;
+
+    font-size: 15px;
+
+    color: blue;
+
+    display: line;
+
+    outline: 0;
+
+    text-decoration: none;
+
+}
+
+.nav-bar a:hover {
+
+    background-color: green;
+
+    color: white;
+
+}
+
+.nav-bar a.active {
+
+    background-color: #80ff80;
+
+    color: aliceblue
