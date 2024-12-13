@@ -1,0 +1,6 @@
+print("welcome to riddhonil's world ")
+print(10)
+print("riddhonil",5)
+print("riddhonil",end="*")
+print("\n")
+print("*"*3)
