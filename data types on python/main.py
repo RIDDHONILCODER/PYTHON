@@ -1,10 +1,12 @@
-a='h'
-print("data type of a is= ",type(a))
-a=True
-print("data type of a is= ",type(a))
-a=1234567834
-print("data type of a is= ",type(a))
-a=0.1
-print("data type of a is= ",type(a))
-
-
+name="riddhonil"
+print("data type of name is= ",type(name))
+age=10
+print("data type of age is= ",type(age))
+height=4.1
+print("data type of height is= ",type(height))
+like_socer=True 
+print("data type of like_socer is= ",type(like_socer))
+height=int(height)
+print("data type of height is= ",type(height))
+age=str(age)
+print("data type of age is= ",type(age))
