@@ -15,5 +15,5 @@ print("the month of the year () is ",calendar)
 
 year=2025
 month=4
-print("the month of the year () is ",calendar)
+print("the month of the year {} is ",calendar)
 
