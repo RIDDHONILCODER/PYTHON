@@ -9,3 +9,8 @@ my_set3=([0, 1, 3, 4, 5])
 print("the set 3 is ",my_set3)
 my_set3.pop()
 print("the set 3 is ",my_set3)
+#Write a program to find the intersection of two sets. Set1 = {green, blue} Set2 = {blue, yellow}
+set1= {"green","blue"}
+set2={"blue","yellow"}
+print("the intersection of the two sets is ",set1.intersection(set2))
+print("the union of the two sets is ",set1.union(set2))
