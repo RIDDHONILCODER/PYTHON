@@ -11,5 +11,6 @@ bins=[80,100,125,150]
 plt.xlabel("blood sugar range")
 plt.ylabel("total number of patiant")
 
-plt.hist(blood,bins=bins,color=color,)
+plt.hist(blood,bins=bins,color=color)
+plt.legend()
 plt.show()
